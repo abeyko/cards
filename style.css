@@ -1,7 +1,24 @@
-.center-children {
-  text-align: center;
-}
-
 .row {
  display: inline-block;
+ font-family: 'Roboto', sans-serif;
+ }
+
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
 }
+
+h4 { 
+   position: absolute; 
+   /*top: 200px; */
+   top: 58%;
+   left: 8%; 
+   width: 100%; 
+}
+
+h4 span { 
+   color: #707070; 
+   font: 'Roboto', sans-serif; 
+   padding: 10px; 
+}
+
